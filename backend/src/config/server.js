@@ -6,7 +6,7 @@ const server = express()
 server.use(bodyParser.urlencoded({extended: true}))
 server.use(bodyParser.json())
 server.use(allowCors)
-const port = 3003
+const port = 3000
 
 server.listen(port, function() {
     console.log(`BACKEND is running on port ${port}`)
